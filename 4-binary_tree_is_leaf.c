@@ -4,7 +4,8 @@
  * binary_tree_delete - Deletes an entire binary tree
  *
  * @tree: Tree to delete
- *
+ * Return: 1 if node is a leaf.
+ *         Otherwise - 0
  */
 int binary_tree_is_leaf(const binary_tree_t *node)
 {
